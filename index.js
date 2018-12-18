@@ -3,16 +3,16 @@
 const driver = {name: "Sam"};
 
 //Not destructive
-function updateDriverWithKeyAndValue(driver, key, value) {
-  const newObj = {...driver};
+function updateDriverWithKeyAndValue(obj, key, value) {
+  const newObj = {...obj};
   newObj[key] = value;
   return newObj;
 }
 
 //Destructive
-function destructivelyUpdateDriverWithKeyAndValue(driver, key, value) {
-  driver[key] = value;
-  return driver;
+function destructivelyUpdateDriverWithKeyAndValue(obj, key, value) {
+  obj[key] = value;
+  return obj;
 }
 
 //Not destructive
