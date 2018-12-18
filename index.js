@@ -1,6 +1,6 @@
 // Write your solution in this file!
 
-const driver = {};
+const driver = {name: "Sam"};
 
 //Not destructive
 function updateDriverWithKeyAndValue() {
