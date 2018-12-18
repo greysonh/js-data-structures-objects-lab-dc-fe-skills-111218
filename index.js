@@ -5,7 +5,7 @@ const driver = {name: "Sam"};
 //Not destructive
 function updateDriverWithKeyAndValue(obj, key, value) {
   const newObj = {...obj};
-  newObj.key = value;
+  newObj[key] = value;
   return newObj;
 }
 
