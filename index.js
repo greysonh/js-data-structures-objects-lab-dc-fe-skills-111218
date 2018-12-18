@@ -3,8 +3,12 @@
 let driver = {};
 
 //Not destructive
-function updateDriverWithKeyAndValue(key1, key2) {
-  return driver
+function updateDriverWithKeyAndValue(n, a) {
+  let result = {
+    driver.name (n)
+    driver.address = a;
+    return result;
+  }
 }
 
 //Destructive
